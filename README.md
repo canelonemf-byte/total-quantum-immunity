@@ -1,53 +1,44 @@
 # total-quantum-immunity
 
-Total Quantum Immunity / Cifrado Inquebrantable: arquitectura integrada de criptografía y metamateriales.
+# total-quantum-immunity  Total Quantum Immunity / Cifrado Inquebrantable: arquitectura integrada de criptografía y metamateriales.  **Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
 
-**Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
+## Autoría
 
-## Carpetas de origen en Google Drive
+- **Autor:** Lázaro López Paz, El Prat de Llobregat, Barcelona, España
+- **ORCID:** [0000-0001-8601-1963](https://orcid.org/0000-0001-8601-1963)
+- Elaborado con asistencia de inteligencia artificial
+- Sin afiliaciones institucionales
 
-- https://drive.google.com/drive/folders/1NNtDa_qg5TFlqmmLMnhSLjSBPTs0USjZ
-- https://drive.google.com/drive/folders/1a5chSCabqH3Ck_p7hT3_X3lEp1rilHJd
-- https://drive.google.com/drive/folders/16tpPpNOuCjrkVYRbqaiaDEuYt-MWF4DB
+## Estado
 
-## Archivos incluidos
+Proyecto en desarrollo / documentación. No afirmar validación experimental salvo que el código o los informes del propio repositorio lo demuestren.
 
-- `docs/Copia_de_Cosechar_Ahora_Descifrar_Despues_La_Carrera_por_la_Inmunidad_Cuantica_Total.md` ← Copia de Cosechar Ahora, Descifrar Después: La Carrera por la Inmunidad Cuántica Total
+## Contenido (raíz)
 
-## Pendiente: en Drive
+```
+docs/
+LICENSE
+otp/
+README.md
+REFERENCIAS.md
+requirements.txt
+tests/
+```
 
-Archivos binarios (presentaciones, PDFs grandes, vídeos, imágenes, zips, docx) que no se pudieron pasar a texto. Siguen en Drive:
+## Instalación
 
-- Arquitectura_de_Inmunidad_Cuántica_Total.png · pendiente: en Drive · https://drive.google.com/file/d/1zFs0gn2ROhSPE3O1cpgG42U59B8xGkrS/view?usp=drivesdk
-- Arquitectura_de_defensa_cuántica_total.png · pendiente: en Drive · https://drive.google.com/file/d/1gorN6U19OZ6cYVeB-V83D7j5BBr8I5gG/view?usp=drivesdk
-- Cifrado_Inquebrantable.mp4 · pendiente: en Drive · https://drive.google.com/file/d/11AyAzgV_xQjswdia7fiycSaa_FAIdIkn/view?usp=drivesdk
-- Inmunidad_Cuántica_Total(1).mp4 · pendiente: en Drive · https://drive.google.com/file/d/1CTLj_-C9kECtOzVZUQWWFX-ZYpMDFhL2/view?usp=drivesdk
-- Inmunidad_Cuántica_Total.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1OmaV8w_Zm4BBYRRt_G-WLnV-xJ-2SGsF/view?usp=drivesdk
-- Inmunidad_Cuántica_Total.png · pendiente: en Drive · https://drive.google.com/file/d/1V6Y13e4vwdgVhLGncTGmVO1gXPcOfZFw/view?usp=drivesdk
-- Inmunidad_total_ante_el_soplete_cuántico.m4a · pendiente: en Drive · https://drive.google.com/file/d/1ARyEnFM8NQhGjIpCInI_D3pFYvlN1F-L/view?usp=drivesdk
-- Quantum_Immune_Architecture.pdf · pendiente: en Drive · https://drive.google.com/file/d/1q_041_I1ea4xM-LMnP4kSWgNIYEpu51D/view?usp=drivesdk
-- Quantum_Security_Four-Layer_Architecture.png · pendiente: en Drive · https://drive.google.com/file/d/1cLt9TPxeLPc6chQ015WMt29UXd1_tb10/view?usp=drivesdk
-- Total_Quantum_Immunity-1.pdf · pendiente: en Drive · https://drive.google.com/file/d/1pyQEfcm8No8vYZ3AAhVp_dEbe5qTx4JC/view?usp=drivesdk
-- Total_Quantum_Immunity_Framework.png · pendiente: en Drive · https://drive.google.com/file/d/1imw7s32IGWjugxAkLLC8Am7_KK0uPqJP/view?usp=drivesdk
-- Unbreakable Cipher.mp4 · pendiente: en Drive · https://drive.google.com/file/d/17Y2CUBaoH5IA0TJLCDDzCYFZf1gKAnAh/view?usp=drivesdk
-- Unbreakable Cipher.pdf · pendiente: en Drive · https://drive.google.com/file/d/1-w_E2aphJT8SP1d4JZQ2gU3fIYz_zuhE/view?usp=drivesdk
-- Unbreakable Cipher1.png · pendiente: en Drive · https://drive.google.com/file/d/1uofiq_rP_nwfTAJgDdN7nqlT6Z-SuQcd/view?usp=drivesdk
-- shorts videos.zip · pendiente: en Drive · https://drive.google.com/file/d/1syOvJN-Qk5LZHzSixE_93HsZmvA6zkBP/view?usp=drivesdk
+```bash
+pip install -r requirements.txt
+```
 
-### Subcarpetas no importadas (pendiente: en Drive)
 
-- shorts videos · https://drive.google.com/drive/folders/1LN0F8sMYrmFX4Qi7kpK5MOpBGKxqcmBc
-- shorts videos · https://drive.google.com/drive/folders/1OochLuJUCaAxdjryMjwqlWt1uv8KLncl
-- shorts videos · https://drive.google.com/drive/folders/1MVpfOF8qsUkzdTTVL_0BEZpnnjWkrEMp
+## Uso
 
----
-Los archivos `.trashed-*`, las copias («- copia») y los duplicados entre carpetas no se han listado.
+Archivos Python principales (revisar cada uno antes de ejecutar):
+- `otp/__init__.py`
+- `tests/test_otp.py`
 
-## Referencias
-Ver [REFERENCIAS.md](REFERENCIAS.md).
 
-## Código ejecutable (otp)
+## Licencia
 
-`pip install -r requirements.txt && python -m pytest -q`
-
-Libreta de un solo uso. Solo tiene seguridad incondicional si la clave es aleatoria, igual de larga que el mensaje y nunca se reutiliza. "Inmunidad total" no es una afirmación demostrable para un sistema completo.
+Ver archivo `LICENSE` (o `LICENSE.md`) en la raíz. Documentación bajo CC BY 4.0 cuando aplique; código habitualmente MIT, salvo indicación contraria.
